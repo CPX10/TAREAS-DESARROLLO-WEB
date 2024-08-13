@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mi primer sitio</title>
+		<link rel="stylesheet" href="estilos.css" />
+	</head>
+	<body id="cuerpoSitio">
+		<h1 id="tituloPrincipal">APRENDE DESARROLLO WEB DESDE CERO</h1>
+		<button onclick="cambiarEncabezado()">Cambiar Titulo</button>
+		<h2 class="contenidos">todo lo que necesitas saber del desarrollo web</h2>
+		<button onclick="cambiarColorFondo()">CAMBIAR COLOR</button>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo facilis
+			recusandae quis, fuga aspernatur nam dolor iusto dicta, vel excepturi vero
+			quae at praesentium, ad illum impedit doloremque quaerat consectetur!
+		</p>
+		<button onclick="mostrarAlerta()">SALUDO DESDE JAVASCRIPT</button>
+		<br />
+
+		<div class="contenidos">
+			<form id="imcForm">
+				<label for="">PESO EN KG</label>
+				<br />
+				<input type="text" id="peso" name="peso" />
+				<br />
+				<label for="">ALTURA EN METROS</label>
+				<br />
+				<input type="text" name="altura" id="altura" />
+				<br />
+				<input type="submit" value="Enviar" />
+			</form>
+
+			<div id="resultado"></div>
+		</div>
+
+		<script src="programacion.js"></script>
+	</body>
+</html>

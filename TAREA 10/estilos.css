@@ -1,0 +1,26 @@
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: rgb(45, 173, 67);
+}
+
+h1 {
+	color: rgba(219, 183, 21, 0.705);
+	background-color: brown;
+	padding: 50px 10px 20px 25px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	color: rgb(186, 252, 101);
+}
+
+p {
+	color: rgb(195, 245, 16);
+}
+
+.contenidos {
+	margin: 1rem;
+	background-color: brown;
+	padding: 2rem;
+}
